@@ -1,15 +1,29 @@
-.product-card {
-  background: rgb(222, 179, 179);
-  border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+.cart-container {
+  padding: 20px;
+  background-color: #1e1e1e; /* Dark background for the container */
+  color: #e0e0e0; /* Light text color for contrast */
+  border-radius: 8px; /* Rounded corners for a modern look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
 }
 
-.product-image {
-  width: 100%;
-  height: auto;
+.totals {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
-.product-details {
-  padding: 15px;
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #333333; /* Dark button background */
+  color: #ffffff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
+
+button:hover {
+  background-color: #555555; /* Slightly lighter on hover */
+}
+
