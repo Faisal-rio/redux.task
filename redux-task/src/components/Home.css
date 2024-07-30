@@ -1,27 +1,24 @@
-/* src/components/Home.css */
-
 .home-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .product-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-  
-  .navigation-links {
-    margin-top: 20px;
-  }
-  
-  .navigation-links a {
-    margin: 0 10px;
-    text-decoration: none;
-    color: #007bff;
-  }
-  
-  .navigation-links a:hover {
-    text-decoration: underline;
-  }
-  
+  text-align: center;
+  padding: 20px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navigation-links {
+  margin-top: 20px;
+}
+
+.navigation-links a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.navigation-links a:hover {
+  text-decoration: underline;
+}
